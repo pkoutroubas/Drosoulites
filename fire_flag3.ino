@@ -44,7 +44,7 @@ float c=mv/10;
     if (c > 40) {
       fire = 1;
     }}
-if (c > 40)   {fire=1;} // fire alarm
+
 while ( wl > 250 && fire ==1) {
   digitalWrite (tpump, HIGH); 
 wl=analogRead(water);
