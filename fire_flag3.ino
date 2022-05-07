@@ -43,7 +43,7 @@ if (c > 40) {
 float c=mv/10;
     if (c > 40) {
       fire = 1;
-    }}
+    }} //double checking temperature to avoid sensor error. If ok, fire alarm!
 
 while ( wl > 250 && fire ==1) {
   digitalWrite (tpump, HIGH); 
